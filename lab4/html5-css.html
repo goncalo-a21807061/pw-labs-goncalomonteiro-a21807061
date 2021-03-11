@@ -6,12 +6,13 @@
         <meta name="author" content="Gonçalo Monteiro">
         <meta name="keywords" content="Porto"> 
         <meta name="description" content="Website sobre a cidade do Porto">
+        <link rel="stylesheet" href="estilos.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <title>Cidade Invicta</title>
     </head>
 
     <body>
         <header>
-            <body style="background-color:lightgoldenrodyellow"></body>
             <h1>Porto</h1>
 
             <figure>
@@ -29,23 +30,166 @@
                 <a href="../index.html">Home</a> 
             </nav>
 
-            <h3>HTML5 e CSS</h3>
+            
 
         </header>
         
         <main>
-            <section>
-                <h5>HTML5</h5>
-                <p>Nesta secção vamos utilizar HTML5</p>
-            </section>
-            
+        <section>
+            <h3>HTML5 e CSS</h3>
+            <p>
+                HTML5 é a última evolução no padrão que define o HTML e vem acrescentar importantes mudanças quanto ao papel do HTML no mundo da Web, através de novas
+                funcionalidades como semântica e acessibilidade.
+            </p>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Elemento</th>
+                        <th>Utilizado?</th>
+                        <th>Onde foi utilizado?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>header</td>
+                        <td><i class="material-icons">check_circle_outline</i></td>
+                        <td>Todas as páginas</td>
+                    </tr>
+                    <tr>
+                        <td>nav</td>
+                        <td><i class="material-icons">check_circle_outline</i></td>
+                        <td>Todas as páginas</td>
+                    </tr>
+                    <tr>
+                        <td>main</td>
+                        <td><i class="material-icons">check_circle_outline</i></td>
+                        <td>Todas as páginas</td>
+                    </tr>
+                    <tr>
+                        <td>section</td>
+                        <td><i class="material-icons">check_circle_outline</i></td>
+                        <td>Todas as páginas</td>
+                    </tr>
+                    <tr>
+                        <td>footer</td>
+                        <td><i class="material-icons">check_circle_outline</i></td>
+                        <td>Todas as páginas</td>
+                    </tr>
+                    <tr>
+                        <td>article</td>
+                        <td><i class="material-icons">close</i></td>
+                        <td>Não foi utilizado</td>
+                    </tr>
+                    <tr>
+                        <td>aside</td>
+                        <td><i class="material-icons">close</i></td>
+                        <td>Não foi utilizado</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+        </section>
 
-            <section>
-                <h5>CSS</h5>
-                <p>Nesta secção vamos utilizar CSS</p>
-                
-            </section>
+        <hr>
+        <section>
+            <h3>CSS</h3>
+            <p>
+                Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web.
+            </p>
+            <table border="1">
+                <caption>Tipos de Seletores CSS</caption>
+                <thead>
+                    <tr>
+                        <th>Elemento</th>
+                        <th>Utilizou?</th>
+                        <th>Explicação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Universal</td>
+                        <td><i class="material-icons">check_circle_outline</i></td>
+                        <td>Aplica o estilo a todos os elementos</td>
+                    </tr>
+                    <tr>
+                        <td>Tipo</td>
+                        <td><i class="material-icons">check_circle_outline</i></td>
+                        <td>Aplica o estilo aos marcadores de certo tipo</td>
+                    </tr>
+                    <tr>
+                        <td>Classe</td>
+                        <td><i class="material-icons">check_circle_outline</i></td>
+                        <td>Aplica o estilo a uma classe</td>
+                    </tr>
+                    <tr>
+                        <td>Identificador</td>
+                        <td><i class="material-icons">check_circle_outline</i></td>
+                        <td>Aplica o estilo a um item específico</td>
+                    </tr>
+                    <tr>
+                        <td>Atributos</td>
+                        <td><i class="material-icons">close</i></td>
+                        <td>Aplica o estilo consoante o atributo de um elemento</td>
+                    </tr>
+                    <tr>
+                        <td>Pseudo-classe</td>
+                        <td><i class="material-icons">close</i></td>
+                        <td>Aplica o estilo consoante o estado de um elemento</td>
+                    </tr>
+                    <tr>
+                        <td>Pseudo-elemento</td>
+                        <td><i class="material-icons">close</i></td>
+                        <td>Aplica o estilo consoante as partes de elementos</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+        </section>
+        <section>
+            <table border="1">
+                <caption>Combinadores de Seletores CSS</caption>
+                <thead>
+                    <tr>
+                        <th>Elemento</th>
+                        <th>Utilizou?</th>
+                        <th>Explicação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Descendentes</td>
+                        <td><i class="material-icons">check_circle_outline</i></td>
+                        <td>div p – todos os p que estão “dentro” de um div</td>
+                    </tr>
+                    <tr>
+                        <td>Filhos</td>
+                        <td><i class="material-icons">check_circle_outline</i></td>
+                        <td>div > p – todos os p que estão “logo dentro” de div</td>
+                    </tr>
+                    <tr>
+                        <td>Adjacentes</td>
+                        <td><i class="material-icons">check_circle_outline</i></td>
+                        <td>div ~ p – todos os p que estão colocados depois de um div e foram usados nas páginas principais</td>
+                    </tr>
+                    <tr>
+                        <td>Imediatamente adjacentes</td>
+                        <td><i class="material-icons">check_circle_outline</i></td>
+                        <td>div + p – todos os p que estão colocados depois de um div</td>
+                    </tr>
+                    <tr>
+                        <td>Agrupação</td>
+                        <td><i class="material-icons">check_circle_outline</i></td>
+                        <td>div,p{ color: blue; } - os div e p ficarão com fonte azul</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+        </section>
         </main>
+        
+        <footer>
+            <p>Gonçalo Monteiro, a21807061, 3ºAno, Universidade Lusófona</p>
+        </footer>
         
     </body>
 </html>       
